@@ -1,0 +1,64 @@
+T2140 000:264.093   SEGGER J-Link V7.52b Log File
+T2140 000:264.167   DLL Compiled: Aug  3 2021 16:53:06
+T2140 000:264.171   Logging started @ 2021-12-03 12:28
+T2140 000:264.174 - 264.176ms
+T2140 000:264.180 JLINK_SetWarnOutHandler(...)
+T2140 000:271.878 - 7.700ms
+T2140 000:271.888 JLINK_OpenEx(...)
+T2140 000:278.203   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T2140 000:280.202   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+T2140 000:280.371   Decompressing FW timestamp took 147 us
+T2140 000:295.775   Hardware: V1.00
+T2140 000:295.819   S/N: 4294967295
+T2140 000:295.828   OEM: SEGGER
+T2140 000:295.837   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+T2140 000:303.312   TELNET listener socket opened on port 19021
+T2140 000:303.582   WEBSRV Starting webserver
+T2140 000:303.771   WEBSRV Webserver running on local port 19080
+T2140 000:321.952 - 50.086ms returns "O.K."
+T2140 000:321.998 JLINK_SetErrorOutHandler(...)
+T2140 000:322.005 - 0.010ms
+T2140 000:322.239 JLINK_ExecCommand("ProjectFile = "E:\1工作目录\1项目程序\中微F033\项目\莱伊卡\Demo\keil\JLinkSettings.ini"", ...). 
+T2140 000:401.082   Ref file found at: D:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T2140 000:401.772   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T2140 000:403.559   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T2140 000:590.950   Device "CORTEX-M0" selected.
+T2140 000:591.431 - 269.197ms returns 0x00
+T2140 000:592.177 JLINK_ExecCommand("Device = CMS32F033", ...). 
+T2140 000:593.870   Device "CMS32F033" selected.
+T2140 000:594.324 - 2.141ms returns 0x00
+T2140 000:594.336 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T2140 000:594.343 - 0.003ms returns 0x01
+T2140 000:594.348 JLINK_GetHardwareVersion()
+T2140 000:594.352 - 0.005ms returns 10000
+T2140 000:594.361 JLINK_GetDLLVersion()
+T2140 000:594.364 - 0.005ms returns 75202
+T2140 000:594.368 JLINK_GetOEMString(...)
+T2140 000:594.374 JLINK_GetFirmwareString(...)
+T2140 000:594.378 - 0.005ms
+T2140 000:605.538 JLINK_GetDLLVersion()
+T2140 000:605.553 - 0.016ms returns 75202
+T2140 000:605.559 JLINK_GetCompileDateTime()
+T2140 000:605.562 - 0.005ms
+T2140 000:608.496 JLINK_GetFirmwareString(...)
+T2140 000:608.507 - 0.013ms
+T2140 000:611.441 JLINK_GetHardwareVersion()
+T2140 000:611.454 - 0.015ms returns 10000
+T2140 000:613.975 JLINK_GetSN()
+T2140 000:613.992 - 0.018ms returns -1
+T2140 000:613.997 JLINK_GetOEMString(...)
+T2140 000:618.826 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T2140 000:625.972 - 7.159ms returns 0x00
+T2140 000:625.992 JLINK_HasError()
+T2140 000:625.998 JLINK_SetSpeed(5000)
+T2140 000:627.251 - 1.262ms
+T2140 000:627.267 JLINK_GetId()
+T2140 001:255.907 - 628.689ms returns 0x00000000
+T2438 005:303.260 Looking for J-Link GUI Server exe at: D:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T2438 005:304.335 Looking for J-Link GUI Server exe at: C:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T2438 005:305.065 Forking J-Link GUI Server: C:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T2438 005:865.185 J-Link GUI Server info: "J-Link GUI server V7.52b "
+T2140 006:305.444 JLINK_Close()
+T2140 006:356.414 - 50.996ms
+T2140 006:356.445   
+T2140 006:356.452   Closed
